@@ -1,0 +1,18 @@
+{
+    "name": "immigrationbot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "33cc0020-0bf2-11ea-9a18-5397e1e7ce88",
+            "name": "http://localhost:3978/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\reina\\Home (C)\\JsBots\\ImmigrationQnA\\immigrationbot.bot"
+}
