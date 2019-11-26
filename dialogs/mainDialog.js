@@ -212,6 +212,22 @@ class MainDialog extends ComponentDialog {
             else if (work_type == "opt"){
                 return "Confirm your 12-month OPT information is correct\nComplete and submit your STEM OPT Extension I-20 Request to ISS \nPick up New I-20 and prepare your application\nMail your application to USCIS.";
             }
+        } else if (visa_type == 'j1') {
+            if(work_type == "on campus"){
+                return "You must obtain written approval from the program sponsor (BIO) before beginning any type of on-campus employment. Check out https://internationaloffice.berkeley.edu/students/employment/oncampus for more information"
+            }
+            else if(work_type == "academic training"){
+                return "Academic Training is a type of off-campus work authorization for employment in a J-1 student's field of study. Check out more information at: https://internationaloffice.berkeley.edu/students/employment/at"
+            }
+            else if(work_type == "cpt"){
+                return "J1 students aren't allowed to get CPT training."
+            }
+            else if (work_type == "opt"){
+                return "J1 students aren't allowed to get OPT training."
+            }
+            else {
+                return "More information coming soon!"
+            }
         }
         else{
             return "More information regarding the " + visa_type + " work authorization rules coming soon! Thanks!"
